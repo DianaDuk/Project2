@@ -5,6 +5,7 @@ import logo from '../MainPage/logo.png';
 import cabinet from '../MainPage/cabinet.png';
 import '../MainPage/Header.css'
 import CurrencyConverter from "./CurrencyConverter";
+import { Footer } from "../MainPage/Footer";
 
 export function Convert() {
     const navigate = useNavigate();
@@ -33,6 +34,7 @@ export function Convert() {
 
             <Banner />
             <CurrencyConverter />
+            <Footer />
         </div>
     );
 }
